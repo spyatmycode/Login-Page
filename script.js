@@ -34,7 +34,8 @@ function verify() {
 
     if (password == "admin" && (username == "admin" || username == "akejuoluwanifemi11@gmail.com")) {
         alert("Login Successful");
-        window.open("http://akejuoluwanifemi-portfolio.netllify.app");
+        window.open("http://akejuoluwanifemi-portfolio.netlify.app");
+        window.close();
     }
     else {
         alert("Login Failed");
