@@ -62,9 +62,12 @@ form{
 
 form label{
     font-size: smaller;
+    color: darkgrey;
+    font-weight: 600;
+    font-size: 16px ;
 }
 
-form button{
+form > input[type = "submit"]{
     background-color: orangered;
     border: none;
     text-transform: uppercase;
@@ -87,7 +90,7 @@ form > input{
     
 }
 
-form > input:active{
+form > input:focus{
     border-bottom: 1px solid orangered;
 }
 form a{
